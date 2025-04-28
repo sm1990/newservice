@@ -9,7 +9,7 @@ service /hello on new http:Listener(8090) {
         return "Hey";
     }
 
-    resource function get hi() returns string {
-        return "Hi";
-    }
+    //resource function get hi() returns string {
+   //     return "Hi";
+   // }
 }
