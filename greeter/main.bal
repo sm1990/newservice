@@ -2,7 +2,7 @@ import ballerina/http;
 
 service /hello on new http:Listener(8090) {
     resource function get greeting() returns string {
-        return "Hello, World!!. This is Sarani Mendis";
+        return "Hello, World!!. This is Sarani M";
     }
 
     resource function get hey() returns string {
